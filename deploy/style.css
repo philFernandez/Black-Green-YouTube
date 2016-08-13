@@ -40,3 +40,19 @@ div #feed {
 body ul {
 	color: green;
 }
+
+div #watch-discussion {
+	background: black;
+	color: green;
+}
+
+div#footer-container.yt-base-gutter.force-layer {
+	background: black;
+	border-top: 1px solid green;
+}
+
+div#footer-main {
+	border-bottom: 1px solid green;
+}
+
+
