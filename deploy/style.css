@@ -1,0 +1,42 @@
+html body {
+	background-color: black;
+}
+
+#watch7-sidebar-contents {
+	background: black;
+	border: 1px solid green;
+}
+
+#watch-header {
+	background: black;
+	color: green;
+}
+
+div #yt-masthead-container {
+	background: black;
+	border-bottom: 1px solid green;
+}
+
+div #action-panel-details {
+	background: black;
+	color: green;
+}
+
+div #watch-description {
+	color: green;
+}
+
+/*div .feed-item-container {
+	background: black;
+	color: green;
+	border-bottom: 1px solid green;
+}*/
+
+div #feed {
+	background: black;
+	/*color: green;*/
+}
+
+body ul {
+	color: green;
+}
