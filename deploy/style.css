@@ -4,7 +4,8 @@ html body {
 
 #watch7-sidebar-contents {
 	background: black;
-	border: 1px solid rgba(0,255,68,1);
+	/*border: 1px solid rgba(0,255,68,1);*/
+	box-shadow: 0px -1px 10px 1px rgba(0,255,68,1);
 }
 
 #watch-header {
@@ -68,9 +69,38 @@ div#appbar-nav.appbar-content-hidable {
 	background: black;
 }
 
-/*div#page.home.branded-page-v2-masthead-ad-header.clearfix.masthead-ad-expanded {
+
+
+div#guide-container {
+	background: black;
+	
+}
+
+ul.guide-toplevel {
+	box-shadow: 0px -1px 10px 1px rgba(0,255,68,1);
+}
+
+html body span {
 	color: rgba(0,255,68,1);
-}*/
+}
+
+div.yt-card.clearfix {
+	background: black;
+}
+
+div.yt-lockup-description {
+	background: black;
+	color: rgba(0,255,68,1);
+}
+
+div.shelf-description {
+	background: black;
+	color: rgba(0,255,68,1);
+}
+
+
+
+
 
 
 
