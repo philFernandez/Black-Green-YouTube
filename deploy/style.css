@@ -4,55 +4,74 @@ html body {
 
 #watch7-sidebar-contents {
 	background: black;
-	border: 1px solid green;
+	border: 1px solid rgba(0,255,68,1);
 }
 
 #watch-header {
 	background: black;
-	color: green;
+	color: rgba(0,255,68,1);
 }
 
 div #yt-masthead-container {
 	background: black;
-	border-bottom: 1px solid green;
+	border-bottom: 1px solid rgba(0,255,68,1);
 }
 
 div #action-panel-details {
 	background: black;
-	color: green;
+	color: rgba(0,255,68,1);
 }
 
 div #watch-description {
-	color: green;
+	color: rgba(0,255,68,1);
 }
 
 /*div .feed-item-container {
 	background: black;
-	color: green;
-	border-bottom: 1px solid green;
+	color: rgba(0,255,68,1);
+	border-bottom: 1px solid rgba(0,255,68,1);
 }*/
 
 div #feed {
 	background: black;
-	/*color: green;*/
+	/*color: rgba(0,255,68,1);*/
 }
 
 body ul {
-	color: green;
+	color: rgba(0,255,68,1);
 }
 
 div #watch-discussion {
 	background: black;
-	color: green;
+	color: rgba(0,255,68,1);
 }
 
 div#footer-container.yt-base-gutter.force-layer {
 	background: black;
-	border-top: 1px solid green;
+	border-top: 1px solid rgba(0,255,68,1);
 }
 
 div#footer-main {
-	border-bottom: 1px solid green;
+	border-bottom: 1px solid rgba(0,255,68,1);
 }
+
+/*Shadow around feed on home screen*/
+div.feed-item-container {
+	box-shadow: 0px -1px 10px 1px rgba(0,255,68,1);
+}
+
+a.yt-uix-sessionlink {
+	background: black;
+}
+
+div#appbar-nav.appbar-content-hidable {
+	background: black;
+}
+
+/*div#page.home.branded-page-v2-masthead-ad-header.clearfix.masthead-ad-expanded {
+	color: rgba(0,255,68,1);
+}*/
+
+
 
 
