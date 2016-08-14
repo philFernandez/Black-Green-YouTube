@@ -1,5 +1,7 @@
 html body {
 	background-color: black;
+	font-family: cursive;
+	color: rgba(0,255,68,1);
 }
 
 #watch7-sidebar-contents {
@@ -10,7 +12,6 @@ html body {
 
 #watch-header {
 	background: black;
-	color: rgba(0,255,68,1);
 }
 
 div #yt-masthead-container {
@@ -93,15 +94,55 @@ div.yt-lockup-description {
 	color: rgba(0,255,68,1);
 }
 
+
+
 div.shelf-description {
 	background: black;
 	color: rgba(0,255,68,1);
 }
 
+div#c4-header-bg-container.c4-visible-on-hover-container {
+	background: black;
+}
+
+div#c4-primary-header-contents {
+	background: black;
+}
+
+div#channel-subheader {
+	background: black;
+}
+
+div.branded-page-related-channels {
+	background: black;
+	box-shadow: 0px -1px 10px 1px rgba(0,255,68,1);
+}
+
+div.description {
+	background: black;
+	color: rgba(0,255,68,1);
+}
+
+div.yt-ui-ellipsis {
+	background: black;
+}
+
+h3.title.yt-ui-ellipsis {
+	background: black;
+	color: rgba(0,255,68,1);
+}
+
+html body li.feed-item-container {
+	box-shadow: 0px -1px 10px 1px rgba(0,255,68,1);
+}
 
 
+html body button#yt-picker-safetymode-button {
+	background: black;
+	font-family: cursive;
+}
 
-
-
-
-
+div#yt-picker-safetymode-footer {
+	background: black;
+	color: rgba(0,255,68,1);
+}
