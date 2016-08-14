@@ -13,7 +13,10 @@
 			"matches": ["http://www.youtube.com/*", "https://www.youtube.com/*"],
 			"include_globs": ["*"],
 			"run_at": "document_start",
-			"all_frames": true
+			"all_frames": true			
 		}
-	]
+	],
+	"icons": {				
+		"48":"icon48.png"
+	}
 }
