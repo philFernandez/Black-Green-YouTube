@@ -132,7 +132,7 @@ div.description {
 }
 
 div.yt-ui-ellipsis {
-	background: black;
+	background: rgba(32,32,32,1);
 }
 
 h3.title.yt-ui-ellipsis {
