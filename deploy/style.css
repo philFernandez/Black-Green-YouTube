@@ -35,7 +35,9 @@ div #watch-description {
 }*/
 
 div #feed {
-	background: black;
+	/*background: rgba(21, 24, 21, 0.8);*/
+	background: rgba(32,32,32,1);
+
 	/*color: rgba(0,255,68,1);*/
 }
 
@@ -64,6 +66,12 @@ div.feed-item-container {
 
 a.yt-uix-sessionlink {
 	background: black;
+	background: rgba(32,32,32,1);
+}
+
+div#feed-main-what_to_watch {
+	background: rgba(32,32,32,1);
+	box-shadow: 0px -1px 10px 1px rgba(0,255,68,1);
 }
 
 div#appbar-nav.appbar-content-hidable {
@@ -139,6 +147,23 @@ html body li.feed-item-container {
 
 html body button#yt-picker-safetymode-button {
 	background: black;
+	font-family: cursive;	
+}
+
+html body button.yt-uix-button {
+	background: black;
+	color: rgba(0,255,68,1);
+	font-family: cursive;
+	box-shadow: 0px 0px 5px 1px rgba(0,255,68,1);
+}
+
+a.yt-uix-button.yt-uix-sessionlink.yt-uix-button-default {
+	box-shadow: 0px 0px 5px 1px rgba(0,255,68,1);
+}
+
+span.load-more-text {
+	background: black;
+	color: rgba(0,255,68,1);
 	font-family: cursive;
 }
 
@@ -146,3 +171,4 @@ div#yt-picker-safetymode-footer {
 	background: black;
 	color: rgba(0,255,68,1);
 }
+
