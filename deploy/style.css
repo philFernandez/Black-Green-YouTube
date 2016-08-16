@@ -5,9 +5,28 @@ html body {
 }
 
 #watch7-sidebar-contents {
-	background: black;
+	background: rgba(32,32,32,1);
+	color: rgba(0,255,68,1);
 	/*border: 1px solid rgba(0,255,68,1);*/
 	box-shadow: 0px -1px 10px 1px rgba(0,255,68,1);
+}
+
+
+
+div#watch8-action-buttons {
+	background: rgba(32,32,32,1);
+	color: rgba(0,255,68,1)!important;
+}
+
+
+
+
+span.title {
+	color: rgba(0,255,68,1)!important;
+}
+
+a:hover, a:hover span.title {
+	color: rgba(0,100,1,1)!important;
 }
 
 #watch-header {
@@ -19,8 +38,8 @@ div #yt-masthead-container {
 	border-bottom: 1px solid rgba(0,255,68,1);
 }
 
-div #action-panel-details {
-	background: black;
+div#action-panel-details {
+	background: rgba(32,32,32,1);
 	color: rgba(0,255,68,1);
 }
 
@@ -86,6 +105,7 @@ div#guide-container {
 }
 
 ul.guide-toplevel {
+	background: rgba(32,32,32,1);
 	box-shadow: 0px -1px 10px 1px rgba(0,255,68,1);
 }
 
@@ -156,6 +176,10 @@ html body button.yt-uix-button {
 	font-family: cursive;
 	box-shadow: 0px 0px 5px 1px rgba(0,255,68,1);
 }
+
+/*html body button.yt-uix-button-size-default.yt-uix-button-opacity.yt-uix-button-has-icon.no-icon-markup.like-button-renderer-like-button.like-button-renderer-like-button-unclicked.yt-uix-post-anchor.yt-uix-tooltip::before {
+	color: rgba(0,255,68,1)!important;
+}*/
 
 a.yt-uix-button.yt-uix-sessionlink.yt-uix-button-default {
 	box-shadow: 0px 0px 5px 1px rgba(0,255,68,1);
