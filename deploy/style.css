@@ -413,6 +413,63 @@ a.lohp-video-link.max-line-3.yt-uix-sessionlink.spf-link.yt-ui-ellipsis.yt-ui-el
 	background-color: rgba(32,32,32,1);
 }
 
+div.secondary-header-contents {
+	background-color: black!important;
+}
+
+button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.yt-uix-button-empty.yt-uix-button-has-icon.casual-settings-button {
+	background-color: rgba(0,255,68,1);
+}
+
+div#creator-page-sidebar {
+	background-color: rgba(32,32,32,1);
+	box-shadow: 0px -1px 10px 1px rgba(0,255,68,1);
+}
+
+div.subscribers-table-container {
+	background-color: rgba(32,32,32,1);
+
+}
+
+div#creator-subheader {
+	background-color: rgba(32,32,32,1);
+
+}
+
+p.subscriber-privacy-message {
+	background-color: rgba(32,32,32,1);
+
+}
+
+h2#creator-subheader-text {
+	color: rgba(0,255,68,1)!important;
+}
+
+a.g-hovercard {
+	color: rgba(0,255,68,1)!important;
+}
+
+td.subscribed-since  {
+	color: rgba(0,255,68,1)!important;
+}
+
+td.subscriber-count {
+	color: rgba(0,255,68,1)!important;
+}
+
+td.action {
+	color: rgba(0,255,68,1)!important;
+}
+
+span.yt-subscription-button-subscriber-count-branded-horizontal.subscribed.yt-uix-tooltip {
+	background-color: rgba(32,32,32,1);
+	border: 1px solid rgba(0,255,68,1);
+}
+
+button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-subscribed-branded.yt-uix-button-has-icon.no-icon-markup.yt-uix-subscription-button.yt-can-buffer.hover-enabled {
+	border: 1px solid rgba(0,255,68,1);
+}
+
 
 
 
