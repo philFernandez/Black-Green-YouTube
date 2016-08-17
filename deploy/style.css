@@ -201,6 +201,7 @@ html body button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.
 
 a.yt-uix-sessionlink {
 	color: #167ac6!important;
+	
 }
 
 a.yt-uix-sessionlink:hover {
@@ -210,6 +211,10 @@ a.yt-uix-sessionlink:hover {
 a.yt-uix-button.yt-uix-sessionlink.yt-uix-button-default {
 	box-shadow: 0px 0px 5px 1px rgba(0,255,68,1);
 }
+
+a.yt-uix-sessionlink.yt-ui-ellipsis.yt-ui-ellipsis-2.spf-link {
+	background-color: rgba(32,32,32,1);	
+} 
 
 span.load-more-text {
 	background: black;
@@ -302,6 +307,10 @@ html body span.yt-uix-button-content {
 	border-bottom: 1px solid rgba(0,255,68,1);
 }
 
+html body span.yt-uix-button-icon.yt-uix-button-icon-bell.yt-sprite {
+	background-color: rgba(0,255,68,1)!important;
+}
+
 html body div#footer-links a {
 	color: rgba(0,255,68,1)!important;
 }
@@ -309,6 +318,14 @@ html body div#footer-links a {
 a.yt-uix-button.yt-uix-sessionlink.yt-uix-button-default.yt-uix-button-size-default {
 	background-color: black;
 	border: 1px solid rgba(0,255,68,1);
+}
+
+a.yt-uix-sessionlink.yt-uix-tile-link.yt-ui-ellipsis.yt-ui-ellipsis-2.spf-link {
+	background-color: black;
+}
+
+div.yt-lockup-description.yt-ui-ellipsis.yt-ui-ellipsis-2 {
+	background-color: black;
 }
 
 
