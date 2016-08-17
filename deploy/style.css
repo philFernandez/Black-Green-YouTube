@@ -94,17 +94,13 @@ div.feed-item-container {
 	box-shadow: 0px -1px 10px 1px rgba(0,255,68,1);
 }
 
-a.yt-uix-sessionlink {
-	background: black;
-	background: rgba(32,32,32,1);
-}
 
 div#feed-main-what_to_watch {
 	background: rgba(32,32,32,1);
 	box-shadow: 0px -1px 10px 1px rgba(0,255,68,1);
 }
 
-div#appbar-nav.appbar-content-hidable {
+html body div#appbar-nav.appbar-content-hidable {
 	background: black;
 }
 
@@ -195,6 +191,10 @@ html body button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.
 	border: solid 1px rgba(0,255,68,1)!important;		
 }
 
+html body button.yt-uix-button.yt-uix-button-size-small.yt-uix-button-link.comment-renderer-reply.comment-simplebox-trigger {
+	border-bottom: solid 1px rgba(0,255,68,1);
+}
+
 a.yt-uix-sessionlink {
 	color: #167ac6!important;
 }
@@ -282,8 +282,20 @@ html body h2.comment-section-header-renderer {
 
 /* This is for the comment dislike thunb*/
 html body button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.yt-uix-button-empty.yt-uix-button-has-icon.no-icon-markup.comment-action-buttons-renderer-thumb.yt-uix-sessionlink.sprite-comment-actions.sprite-dislike:before {
+	background-color: rgba(0,255,68,1)!important;
+}
+
+html body button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.yt-uix-button-empty.yt-uix-button-has-icon.no-icon-markup.comment-action-buttons-renderer-thumb.yt-uix-sessionlink.sprite-comment-actions.sprite-like:before {
+	background-color: rgba(0,255,68,1)!important;
+}
+
+html body div#page.home.clearfix.masthead-ad-expanded {
+	border: solid 1px rgba(0,255,68,1)!important;
 	color: rgba(0,255,68,1)!important;
 }
+
+
+
 
 
 
