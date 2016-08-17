@@ -15,7 +15,6 @@ html body: hover {
 	box-shadow: 0px -1px 10px 1px rgba(0,255,68,1);
 }
 
-
 div#watch8-action-buttons {
 	background: rgba(32,32,32,1);
 	color: rgba(0,255,68,1)!important;
@@ -65,12 +64,6 @@ div.watch-view-count {
 	color:rgba(0,255,68,1);
 }
 
-/*div .feed-item-container {
-	background: black;
-	color: rgba(0,255,68,1);
-	border-bottom: 1px solid rgba(0,255,68,1);
-}*/
-
 div #feed {
 	/*background: rgba(21, 24, 21, 0.8);*/
 	background: rgba(32,32,32,1);
@@ -115,8 +108,6 @@ div#appbar-nav.appbar-content-hidable {
 	background: black;
 }
 
-
-
 div#guide-container {
 	background: black;
 	
@@ -139,8 +130,6 @@ div.yt-lockup-description {
 	background: black;
 	color: rgba(0,255,68,1);
 }
-
-
 
 div.shelf-description {
 	background: black;
@@ -198,14 +187,14 @@ html body button.yt-uix-button {
 }
 
 html body button#appbar-guide-button.yt-uix-button.yt-uix-button-size-default {
-	/*background: black;
-	color: rgba(0,255,68,1);
-	font-family: cursive;*/
-	/*border-top: solid 1px rgba(0,255,68,1)!important;
-	border-right: solid 1px rgba(0,255,68,1)!important;
-	border-left: solid 1px rgba(0,255,68,1)!important;*/
+
 	border: solid 1px rgba(0,255,68,1)!important;
 }
+
+html body button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-button {
+	border: solid 1px rgba(0,255,68,1)!important;		
+}
+
 a.yt-uix-sessionlink {
 	color: #167ac6!important;
 }
@@ -213,10 +202,6 @@ a.yt-uix-sessionlink {
 a.yt-uix-sessionlink:hover {
 	color: rgba(0,255,68,1)!important;
 }
-
-/*html body button.yt-uix-button-size-default.yt-uix-button-opacity.yt-uix-button-has-icon.no-icon-markup.like-button-renderer-like-button.like-button-renderer-like-button-unclicked.yt-uix-post-anchor.yt-uix-tooltip::before {
-	color: rgba(0,255,68,1)!important;
-}*/
 
 a.yt-uix-button.yt-uix-sessionlink.yt-uix-button-default {
 	box-shadow: 0px 0px 5px 1px rgba(0,255,68,1);
@@ -233,7 +218,6 @@ div#yt-picker-safetymode-footer {
 	color: rgba(0,255,68,1);
 }
 
-
 div#appbar-guide-menu {
 	background: black;
 }
@@ -246,7 +230,60 @@ div.masthead-search-terms-border {
 	border: solid 1.5px rgba(0,255,68,1);
 } 
 
+html body button#google-help {
+	box-shadow: 0px 0px 5px 1px rgba(0,255,68,1);
+	border: solid 1px rgba(0,255,68,1)!important;
+}
 
+html body button#google-help.yt-uix-button:hover {
+	background: black;
+}
+
+a.yt-uix-button.footer-history.yt-uix-sessionlink.yt-uix-button-default.yt-uix-button-size-default.yt-uix-button-has-icon {
+	box-shadow: 0px 0px 5px 1px rgba(0,255,68,1);
+	border: solid 1px rgba(0,255,68,1)!important;
+	background: black;
+}
+
+html body button#yt-picker-safetymode-button {
+	box-shadow: 0px 0px 5px 1px rgba(0,255,68,1);
+	border: solid 1px rgba(0,255,68,1)!important;
+}
+
+html body button#yt-picker-country-button {
+	box-shadow: 0px 0px 5px 1px rgba(0,255,68,1);
+	border: solid 1px rgba(0,255,68,1)!important;
+}
+
+html body button#yt-picker-country-button:hover {
+	background: black;
+}
+
+html body button#yt-picker-language-button {
+	box-shadow: 0px 0px 5px 1px rgba(0,255,68,1);
+	border: solid 1px rgba(0,255,68,1)!important;
+}
+
+html body button#yt-picker-language-button:hover {
+	background: black;
+}
+
+html body div.comment-simplebox-renderer-collapsed-content {
+	border: solid 1px rgba(0,255,68,1);
+}
+
+html body div.comment-simplebox-renderer.yt-uix-servicelink {
+	border-bottom: solid 1px rgba(0,255,68,1);
+}
+
+html body h2.comment-section-header-renderer {
+	color: rgba(0,255,68,1);
+}
+
+/* This is for the comment dislike thunb*/
+html body button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.yt-uix-button-empty.yt-uix-button-has-icon.no-icon-markup.comment-action-buttons-renderer-thumb.yt-uix-sessionlink.sprite-comment-actions.sprite-dislike:before {
+	color: rgba(0,255,68,1)!important;
+}
 
 
 
