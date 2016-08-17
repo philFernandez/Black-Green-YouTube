@@ -4,7 +4,7 @@ html body {
 	color: rgba(0,255,68,1);
 }
 
-html body: hover {
+html body:hover {
 	color: rgba(0,100,1,1);
 }
 
@@ -195,6 +195,10 @@ html body button.yt-uix-button.yt-uix-button-size-small.yt-uix-button-link.comme
 	border-bottom: solid 1px rgba(0,255,68,1);
 }
 
+html body button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-button.yt-uix-load-more.comment-section-renderer-paginator.yt-uix-sessionlink:hover {
+	background: black!important;
+}
+
 a.yt-uix-sessionlink {
 	color: #167ac6!important;
 }
@@ -292,6 +296,19 @@ html body button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.
 html body div#page.home.clearfix.masthead-ad-expanded {
 	border: solid 1px rgba(0,255,68,1)!important;
 	color: rgba(0,255,68,1)!important;
+}
+
+html body span.yt-uix-button-content {
+	border-bottom: 1px solid rgba(0,255,68,1);
+}
+
+html body div#footer-links a {
+	color: rgba(0,255,68,1)!important;
+}
+
+a.yt-uix-button.yt-uix-sessionlink.yt-uix-button-default.yt-uix-button-size-default {
+	background-color: black;
+	border: 1px solid rgba(0,255,68,1);
 }
 
 
