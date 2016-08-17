@@ -52,6 +52,14 @@ div#action-panel-details a.yt-uix-servicelink {
 	color: #167ac6!important;
 }
 
+a.yt-uix-sessionlink.comment-author-text.g-hovercard.spf-link  {
+	background-color: black;
+}
+
+/*a.yt-uix-sessionlink.yt-uix-tile-link.yt-ui-ellipsis.yt-ui-ellipsis-2.spf-link {
+
+} */
+
 div#action-panel-details a.yt-uix-servicelink:hover {
 	color:rgba(0,255,68,1)!important;
 }
@@ -115,7 +123,7 @@ ul.guide-toplevel {
 }
 
 html body span {
-	color: rgba(0,255,68,1);
+	color: rgba(0,255,68,1)!important;
 }
 
 div.yt-card.clearfix {
@@ -198,6 +206,16 @@ html body button.yt-uix-button.yt-uix-button-size-small.yt-uix-button-link.comme
 html body button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.load-more-button.yt-uix-load-more.comment-section-renderer-paginator.yt-uix-sessionlink:hover {
 	background: black!important;
 }
+
+
+.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.yt-uix-menu-trigger {
+	border: solid 1px rgba(0,255,68,1)!important;
+}
+
+.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.yt-uix-menu-trigger:hover {
+	background-color: black;
+}
+
 
 a.yt-uix-sessionlink {
 	color: #167ac6!important;
@@ -298,10 +316,11 @@ html body button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.
 	background-color: rgba(0,255,68,1)!important;
 }
 
-html body div#page.home.clearfix.masthead-ad-expanded {
+/*html body div#page.home.clearfix.masthead-ad-expanded {
 	border: solid 1px rgba(0,255,68,1)!important;
 	color: rgba(0,255,68,1)!important;
-}
+	box-shadow: 0px 0px 5px 1px rgba(0,255,68,1)!important;
+}*/
 
 html body span.yt-uix-button-content {
 	border-bottom: 1px solid rgba(0,255,68,1);
@@ -321,12 +340,25 @@ a.yt-uix-button.yt-uix-sessionlink.yt-uix-button-default.yt-uix-button-size-defa
 }
 
 a.yt-uix-sessionlink.yt-uix-tile-link.yt-ui-ellipsis.yt-ui-ellipsis-2.spf-link {
-	background-color: black;
+	/*background-color: black;*/
+	background-color: rgba(32,32,32,1);	
 }
 
 div.yt-lockup-description.yt-ui-ellipsis.yt-ui-ellipsis-2 {
-	background-color: black;
+	/*background-color: black;*/
+	background-color: rgba(32,32,32,1);	
 }
+
+html body span.copyright {
+	color: rgba(0,255,68,1)!important;
+}
+
+
+h2.epic-nav-item-heading {
+	color: rgba(0,255,68,1);
+}
+
+
 
 
 
