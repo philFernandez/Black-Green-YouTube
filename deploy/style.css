@@ -116,7 +116,6 @@ html body div#appbar-nav.appbar-content-hidable {
 
 div#guide-container {
 	background: black;
-	
 }
 
 ul.guide-toplevel {
@@ -469,6 +468,44 @@ span.yt-subscription-button-subscriber-count-branded-horizontal.subscribed.yt-ui
 button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-subscribed-branded.yt-uix-button-has-icon.no-icon-markup.yt-uix-subscription-button.yt-can-buffer.hover-enabled {
 	border: 1px solid rgba(0,255,68,1);
 }
+
+
+div.comment-simplebox-text:before {
+	background-color: rgba(32,32,32,1);
+	color: rgba(0,255,68,1)!important;
+}
+
+div.comment-simplebox-text {
+	background-color: rgba(32,32,32,1);
+	color: rgba(0,255,68,1);
+}
+
+div.comment-simplebox-renderer-collapsed-content {
+	color: rgba(0,255,68,1);
+}
+
+div#comment-simplebox.comment-simplebox {
+	background-color: black;
+}
+
+div.comment-simplebox-frame {
+	background-color: rgba(32,32,32,1)!important;
+}
+
+button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.comment-simplebox-cancel:hover {
+	background-color: black;	
+}
+
+button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-default.comment-simplebox-cancel {
+	border-bottom: 1px solid rgba(0,255,68,1);
+}
+
+button.yt-uix-button.yt-uix-button-size-default.yt-uix-button-primary.yt-uix-button-empty.comment-simplebox-submit.yt-uix-sessionlink {
+	background-color: black;
+	border-bottom: 1px solid rgba(0,255,68,1);
+}
+
+
 
 
 
