@@ -649,6 +649,10 @@ div.ytg-fl.account-container h3 {
 	color: rgba(0,255,68,1);
 }
 
+button#search-btn:hover {
+	background-color: black;
+}
+
 
 
 
