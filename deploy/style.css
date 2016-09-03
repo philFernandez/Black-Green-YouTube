@@ -653,6 +653,10 @@ button#search-btn:hover {
 	background-color: black;
 }
 
+div#watch-action-panels {
+	background-color: rgba(32,32,32,1);
+	box-shadow: 0px -1px 10px 1px rgba(0,255,68,1);
+}
 
 
 
